@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('fileUploadApp')
+angular.module('uploadApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
       'title': 'Home',

@@ -7,7 +7,7 @@
 
 module.exports = {
   DOMAIN:           'http://localhost:9000',
-  SESSION_SECRET:   'fileupload-secret',
+  SESSION_SECRET:   'upload-secret',
 
   // Control debug level for modules using visionmedia/debug
   DEBUG: ''
