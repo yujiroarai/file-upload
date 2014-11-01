@@ -3,7 +3,7 @@
 /**
  * Removes server error when user updates input
  */
-angular.module('fileUploadApp')
+angular.module('uploadApp')
   .directive('mongooseError', function () {
     return {
       restrict: 'A',

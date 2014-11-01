@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('fileUploadApp')
+angular.module('uploadApp')
   .controller('AdminCtrl', function ($scope, $http, Auth, User) {
 
     // Use the User $resource to fetch all users

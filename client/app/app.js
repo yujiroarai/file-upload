@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('fileUploadApp', [
+angular.module('uploadApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',

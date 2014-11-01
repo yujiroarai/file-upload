@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('fileUploadApp')
+angular.module('uploadApp')
   .controller('SignupCtrl', function ($scope, Auth, $location) {
     $scope.user = {};
     $scope.errors = {};
