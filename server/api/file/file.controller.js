@@ -1,11 +1,11 @@
 var fs = require('fs'),
-unzip = require('unzip'),
-fstream = require('fstream'),
 multiparty = require('multiparty'),
 exec = require('child_process').exec;
 
 // Creates a new thing in the DB.
 exports.create = function(req, res) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
   // FIXME コマンドじゃなくてnodeでやりたいよね
   exec('rm -rf ./uploads', function(err, stdout){
     console.log(stdout);
